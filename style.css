@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* display: flex;
+align-items: center;
+justify-content: center; */
+
+  /* display: grid;
+place-items: center; */
+
+  position: relative;
+}
+.container {
+  position: absolute;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+
+.left-container {
+  /* background-color: red; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right-container-child h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.right-container-child p {
+  font-size: 12px;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+form label {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+form input {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#fp {
+  font-size: 10px;
+  color: #4782AA;
+  font-weight: 600;
+  float: right;
+  margin-right: 10px;
+  margin-top: -10px;
+  cursor: pointer;
+  /* padding: px; */
+}
+.btn-container{
+    width: 100%;
+
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    /* background-color: transparent; */
+    border: none;
+    outline: none;
+
+}
+
+/* pseudo selector */
+button:first-child {
+    background-color: #4782AA;
+color:#ffff;
+transition: .5s all ease;
+cursor: pointer;
+
+}
+button:first-child:hover{
+    background-color: #1d425a;
+}
+button:last-child{
+    background-color: transparent;
+    color: black;
+    border: 1px solid grey;
+    transition: .5s all ease;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 2px 20px;
+}
+button:last-child:hover{
+    background-color: #f6feff;
+}
+
+p:last-child{
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+}
+p:last-child a{
+    font-weight:600;
+    color: #4782AA;
+    text-decoration: none;
+}
+.btn img{
+
+    height: 30px;
+    width: 30px;
+   
+}
+
